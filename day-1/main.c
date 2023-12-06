@@ -88,7 +88,6 @@ int main(void)
 		//system("pause");
 	}
 
-	// Using input.txt, it should be 54770:
 	printf("Sum: %d\n", sum);
 	return 0;
 }
