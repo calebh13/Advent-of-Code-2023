@@ -124,8 +124,5 @@ int main(void)
 		}
 		endOfLine = 0;
 	}
-
-
-
 	return 0;
 }
