@@ -22,10 +22,10 @@ int main(void)
 	{
 		printf("times[%d]: %lld, distances[%d]: %lld\n", i, times[i], i, distances[i]);
 		waysToWin = calcWaysToWin(times[i], distances[i]);
-		printf("Ways to win: %lld\n", waysToWin);
+		printf("Ways to win: %d\n", waysToWin);
 		product *= waysToWin;
 	}
-	printf("Prod: %lld\n", product);
+	printf("Prod: %d\n", product);
 
 	return 0;
 }
